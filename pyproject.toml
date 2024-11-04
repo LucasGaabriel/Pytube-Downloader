@@ -1,18 +1,17 @@
 [tool.poetry]
+package-mode = false
 name = "pytube-downloader"
 version = "0.1.0"
 description = ""
 authors = ["Lucas Gabriel <lucasgabriiel.oliveira@gmail.com>"]
 readme = "README.md"
-package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.13"
-customtkinter = "^5.2.2"
+python = "^3.12"
 pytubefix = "^8.2.0"
+customtkinter = "^5.2.2"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
